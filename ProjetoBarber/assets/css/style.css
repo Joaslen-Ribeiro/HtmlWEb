@@ -1,58 +1,34 @@
 /*Home da pagina */
-.menuprimeiro{
-    width: 940px;
-    position: absolute;
-    top: -40px;
-    right: 5%;
+.banner{
+   width: 100%; 
 }
-#banner{
-    width: 100%;
-}
-.principal{
-    background: #cccccc;
-    padding: 30px;
-}
+
 .titulo-principal{
-padding-left: 20px;
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
 }
-.titulo-central{
-   text-align: center
+.principal p{
+    margin: 0 0 1em; 
 }
-.primeira{
-    text-align: center
+.principal strong{
+    font-weight: bold;
 }
-#missao{
-    font-size: 20px
-}
-em strong{
-    color: red
-}
-.itens{
+.principal em{
     font-style: italic;
 }
-.beneficios{
-    background: #ffffff;
-    padding: 20px;
-}
-
-#inicio{
-    display: inline-block;
-    vertical-align: top;
-    width: 400px;
-    margin-right: 0px;
-}
 .imagembeneficios{
-    width: 50%;
+    width: 60%;
 }
-
-
-
-
-
+.utensilios{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+} 
 
 /*produtos */
-header{
-   
+header{  
     background: #BBBBBB;
     padding: 20px 0;
 }
@@ -74,7 +50,7 @@ margin: 0 0 0 15px;
 
 }
 
-nav a {
+nav a  {
     text-transform: uppercase;
     color: #000000;
     font-weight: bold;
@@ -143,14 +119,66 @@ main{
 form{
     margin: 40px 0;
 }
-form label{
+form label, form legend{
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
 }
-form input{
+.input-padrao {
     display: block;
     margin: 0 0 20px;
     padding: 5px 25px;
     width: 50%;
 }
+.checkbox{
+    margin: 20px 0;
+}
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.enviar:hover{
+    background: darkorange;
+
+    transform:/* rotate(360deg)*/ scale(1.2) ;
+}
+table{
+    margin: 20px 40px;
+
+}
+thead{
+    
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+td,th{
+    border: 1px solid #000000;
+    padding: 2px 2px;
+}
+
+/* teste
+p{
+    color: red;
+}
+form p{
+    color: #000000;
+}
+.teste{
+    color: #088C19;
+}
+p.teste{
+    color: #C78C19;
+}
+#teste{
+    color: black;
+}
+*/
